@@ -1,0 +1,51 @@
+S00 - HAS_COLOUR(white)              []
+S01 - HAS_COLOUR(black)              [not including contours]
+S02 - HAS_COLOUR(yellow)             [including gold]
+S03 - HAS_COLOUR(orange)             [including brown, bordo]
+S04 - HAS_COLOUR(red)
+S05 - HAS_COLOUR(blue)               [any shade]
+S06 - HAS_LEFT_TRIANGLE(any)         [not including crosses, not partially obscured]
+S07 - HAS_COLOUR(green)              [all shades]
+S08 - HAS_STRIPES(horizontal)
+S09 - HAS_STRIPES(vertical)
+S11 - HAS_STRIPES(diagonal)
+S12 - HAS_STRIPES_PROPERTY(all_different_colours) [including shade differences]
+S13 - HAS_STRIPES_PROPERTY(alternating_two_colours) [including shade differences]
+S14 - HAS_STRIPES_PROPERTY(uneven) [including borders]
+S16 - HAS_STRIPES_COUNT(horizontal, 4+)
+S18 - HAS_CROSS(any) [geometric only, not emblems and in emblems]
+S19 - HAS_CROSS(diagonal) [geometric only, not emblems and in emblems]
+S20 - HAS_CROSS(greek) [geometric only, not emblems and in emblems]
+S22 - HAS_CROSS_PROPERTY(any, border) [geometric only, not emblems and in emblems]
+S24 - HAS_MIDDLE_CIRCLE() [geometric only, not emblems and in emblems, may contain emblem or be split in two]
+S25 - HAS_SYMMETRY_AXES(any) [strict meaning]
+S26 - HAS_SYMMETRY_AXES(horizontal) [strict meaning]
+S27 - HAS_SYMMETRY_AXES(vertical) [strict meaning]
+S29 - HAS_FEATURE(star) [not sun, includes wireframe and bordered]
+S30 - HAS_FEATURE_COLOUR(star, white) [...]
+S31 - HAS_FEATURE_COLOUR(star, yellow) [...]
+S32 - HAS_FEATURE_COUNT(star, 2+) [...]
+S33 - HAS_FEATURE_COUNT(star, 3+) [...]
+S35 - HAS_FEATURE_COUNT(star, 5+) [...]
+S36 - HAS_FEATURE_COUNT(star, 6+) [...]
+S37 - HAS_FEATURE_COUNT(star, 10+) [...]
+S38 - HAS_FEATURE(sun) [disk with rays]
+S43 - HAS_FEATURE(writing) [any letters]
+S45 - HAS_FEATURE_PROPERTY(writing, non-its-name-latin)
+S47 - HAS_FEATURE_PROPERTY(writing, not-its-name-spa-por)
+S48 - HAS_FEATURE(plant) [any plant, grass or floral motif]
+S49 - HAS_FEATURE_PROPERTY(plant, tree) [including palm trees]
+S52 - HAS_FEATURE(tool) [list]
+S53 - HAS_FEATURE(beast) [incl mythical]
+S55 - HAS_FEATURE_PROPERTY(beast, bird)
+S56 - HAS_FEATURE(uk-flag)
+S57 - HAS_FEATURE(southern-cross)
+T00 - HAS_STRIPE_PREC(blue, middle)
+T01 - HAS_STRIPE_PREC(red, top)
+T02 - HAS_COLOUR_DETAIL(light-blue)
+T03 - HAS_SHAPE(squarish) [4:5 aspect ratio]
+T04 - HAS_CROSS_PREC(cross, red)
+T05 - HAS_CROSS_COUNT(2+)
+T06 - HAS_CROSS_PREC(background, blue)
+T07 - HAS_STRIPE_PREC(green, right)
+T08 - HAS_COLOUR_DETAIL(slightly-darker-blue)
