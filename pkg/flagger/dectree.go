@@ -10,23 +10,23 @@ import (
 )
 
 type DTNode struct {
-  rule   string
-  mask   Bits256
+  Rule   string
+  Mask   Bits256
 }
 
 type DecTree struct {
   Levels uint32
-  nodes  []DTNode
+  Nodes  []DTNode
 }
 
 
 
 func ( dt DecTree ) Write(fout *os.File) {
   fmt.Fprintf(fout, "%d\n", dt.Levels)
-  for i, n := range dt.nodes {
+  for i, n := range dt.Nodes {
     if i != 0 {
       //fmt.Fprintf(fout, "%4d %s %s\n", i, n.mask.ToString(), n.rule)
-      fmt.Fprintf(fout, "%4d %s %8s %4d\n", i, n.mask.ToString(), n.rule, n.mask.Count())
+      fmt.Fprintf(fout, "%4d %s %8s %4d\n", i, n.Mask.ToString(), n.Rule, n.Mask.Count())
     }
   }
 }
@@ -41,8 +41,8 @@ func ( dt DecTree ) Write(fout *os.File) {
 
 func ( dt DecTree ) GetUsedStdTraits() []int {
   set := map[int]int{}
-  for _, n := range dt.nodes {
-    rule := n.rule
+  for _, n := range dt.Nodes {
+    rule := n.Rule
     if len(rule) > 0 && rule[0] == 'S' {
       val, err := strconv.ParseInt(rule[2:], 10, 32)
       if err != nil {
@@ -68,9 +68,9 @@ func ( dt DecTree ) GetUsedStdTraits() []int {
 
 func GetEmptyDecTree( leafCount, spareLevels uint32 ) DecTree {
   levels := calculateLevels(leafCount, spareLevels)
-  nodes := int(1 << levels)
+  Nodes := int(1 << levels)
 
-  return DecTree{ levels, make([]DTNode, nodes, nodes) }
+  return DecTree{ levels, make([]DTNode, Nodes, Nodes) }
 }
 
 func LoadDecTree( fin *os.File ) DecTree {
@@ -85,9 +85,9 @@ func LoadDecTree( fin *os.File ) DecTree {
   }
 
   levels := uint32(levelCount)
-  nodes := int(1 << levels)
+  Nodes := int(1 << levels)
 
-  dt := DecTree{ levels, make([]DTNode, nodes, nodes) }
+  dt := DecTree{ levels, make([]DTNode, Nodes, Nodes) }
 
   for scanner.Scan() {
     line := scanner.Text()
@@ -104,7 +104,7 @@ func LoadDecTree( fin *os.File ) DecTree {
     mask := GetBits256FromString(fields[1])
     rule := fields[2]
 
-    dt.nodes[index] = DTNode{ rule, mask }
+    dt.Nodes[index] = DTNode{ rule, mask }
   }
 
   return dt

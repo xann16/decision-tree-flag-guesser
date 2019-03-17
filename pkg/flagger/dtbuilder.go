@@ -85,7 +85,7 @@ func findBestStdFit(count uint32,
 func createLeaf( index uint32, mask Bits256, dt *DecTree, tags []string ) {
   tag := tags[mask.OnlyIndex()]
   rule := "F_" + tag
-  dt.nodes[index] = DTNode{ rule, mask }
+  dt.Nodes[index] = DTNode{ rule, mask }
 }
 
 func createDeadlock( index, count uint32, mask Bits256, dt *DecTree,
@@ -95,17 +95,17 @@ func createDeadlock( index, count uint32, mask Bits256, dt *DecTree,
     dlTags = append(dlTags, tags[cid])
   }
   //rule := fmt.Sprintf("DEADLOCK(%s)", strings.Join(dlTags, ";"))
-  //dt.nodes[index] = DTNode{ rule, mask }
+  //dt.Nodes[index] = DTNode{ rule, mask }
   //  fmt.Println("------------------->", rule)
   solveDeadlock( index, dlTags, tags, dt)
 }
 
 func createStandard( index, traitId uint32, mask Bits256, dt *DecTree ) {
-  dt.nodes[index] = DTNode{ fmt.Sprintf("S_%02d", traitId), mask }
+  dt.Nodes[index] = DTNode{ fmt.Sprintf("S_%02d", traitId), mask }
 }
 
 func createTiebreaker( index, tbId uint32, mask Bits256, dt *DecTree ) {
-  dt.nodes[index] = DTNode{ fmt.Sprintf("T_%02d", tbId), mask }
+  dt.Nodes[index] = DTNode{ fmt.Sprintf("T_%02d", tbId), mask }
 }
 
 

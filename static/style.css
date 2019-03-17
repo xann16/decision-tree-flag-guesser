@@ -1,0 +1,111 @@
+.grid-container {
+  display: grid;
+  background-color: #AAAAAA;
+  padding: 20px;
+}
+
+.flag-grid {
+  margin-top: 30px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.label-grid {
+  grid-template-columns: 300px auto;
+  height: 150px;
+}
+
+.notes-grid {
+  grid-template-columns: auto;
+}
+
+
+.grid-item {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.active-flag {
+  border: 3px solid #00AA00;
+}
+
+.active-chosen-flag {
+  border: 3px solid #0000AA;
+}
+
+.rejected-flag {
+  border: 3px solid #AA0000;
+}
+
+.rejected-chosen-flag {
+  border: 3px solid #AA00AA;
+}
+
+.button-flag {
+  border: 3px solid #AAAAAA;
+}
+
+.text-item {
+  padding: 15px;
+  font-family: "Helvetica";
+}
+
+.main-question {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.main-links {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.note {
+  font-family: "Helvetica";
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  font-family: "Helvetica";
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

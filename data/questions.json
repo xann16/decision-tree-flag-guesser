@@ -1,0 +1,285 @@
+{
+  "questions":
+  {
+    "S_00":
+    {
+      "text": "zawiera kolor biały",
+      "notes": [ "CLR" ]
+    },
+    "S_01":
+    {
+      "text": "zawiera kolor czarny",
+      "notes": [ "CLR" ]
+    },
+    "S_02":
+    {
+      "text": "zawiera kolor żółty lub złoty",
+      "notes": [ "CLR" ]
+    },
+    "S_03":
+    {
+      "text": "zawiera przynajmniej jeden z następujących kolorów: pomarańczowy, brązowy, bordowy lub fioletowy",
+      "notes": [ "CLR" ]
+    },
+    "S_04":
+    {
+      "text": "zawiera kolor czerwony",
+      "notes": [ "CLR" ]
+    },
+    "S_05":
+    {
+      "text": "zawiera kolor niebieski (dowolny odcień)",
+      "notes": [ "CLR" ]
+    },
+    "S_06":
+    {
+      "text": "ma w swoim kształcie trójkąt oparty na lewej krawędzi",
+      "notes": [ "TRI" ]
+    },
+    "S_07":
+    {
+      "text": "zawiera kolor zielony (dowolny odcień)",
+      "notes": [ "CLR" ]
+    },
+    "S_08":
+    {
+      "text": "zawiera jakiekolwiek pasy poziome",
+      "notes": [ "LAY", "STR" ]
+    },
+    "S_09":
+    {
+      "text": "zawiera jakiekolwiek pasy pionowe",
+      "notes": [ "LAY", "STR" ]
+    },
+    "S_11":
+    {
+      "text": "zawiera jakiekolwiek pasy ukośne",
+      "notes": [ "LAY", "DIA", "STR" ]
+    },
+    "S_12":
+    {
+      "text": "ma pasy poziome lub pionowe, z których wszystkie są różnych kolorów",
+      "notes": [ "LAY", "STR", "SHA" ]
+    },
+    "S_13":
+    {
+      "text": "ma pasy poziome lub pionowe, które są dwóch naprzemiennych kolorów",
+      "notes": [ "LAY", "STR", "SHA" ]
+    },
+    "S_14":
+    {
+      "text": "ma pasy poziome lub pionowe, które nie mają takich samych wysokości lub szerokości",
+      "notes": [ "LAY", "STR", "UEM" ]
+    },
+    "S_16":
+    {
+      "text": "ma cztery lub więcej pasy poziome",
+      "notes": [ "LAY", "STR" ]
+    },
+    "S_18":
+    {
+      "text": "ma w swoim kształcie dowolny krzyż (prosty lub skośny)",
+      "notes": [ "LAY", "CRS" ]
+    },
+    "S_19":
+    {
+      "text": "ma w swoim kształcie krzyż, którego poprzeczki są skośne (św. Andrzeja)",
+      "notes": [ "LAY", "CRS" ]
+    },
+    "S_20":
+    {
+      "text": "ma w swoim kształcie krzyż, którego poprzeczki są pionowe i poziome oraz przecinają się one w swoim środku (tj. krzyż grecki, nie nordycki)",
+      "notes": [ "LAY", "CRS" ]
+    },
+    "S_22":
+    {
+      "text": "ma w swoim kształcie dowolny krzyż, którego poprzeczki mają obramowania",
+      "notes": [ "LAY", "CRS" ]
+    },
+    "S_24":
+    {
+      "text": "ma w swoim kształcie środkowe, wyróżnione koło",
+      "notes": [ "LAY", "CRC" ]
+    },
+    "S_25":
+    {
+      "text": "ma przynajmniej jedną oś symetrii",
+      "notes": [ "SYM" ]
+    },
+    "S_26":
+    {
+      "text": "ma poziomą oś symetrii",
+      "notes": [ "SYM" ]
+    },
+    "S_27":
+    {
+      "text": "ma pionową oś symetrii",
+      "notes": [ "SYM" ]
+    },
+    "S_29":
+    {
+      "text": "zawiera przynajmniej jedną gwiazdę",
+      "notes": [ "SVS" ]
+    },
+    "S_30":
+    {
+      "text": "zawiera przynajmniej jedną gwiazdę koloru białego (obramowania się nie liczą)",
+      "notes": [ "SVS" ]
+    },
+    "S_31":
+    {
+      "text": "zawiera przynajmniej jedną gwiazdę koloru żółtego lub złotego (obramowania się nie liczą)",
+      "notes": [ "SVS" ]
+    },
+    "S_32":
+    {
+      "text": "zawiera przynajmniej dwie gwiazdy",
+      "notes": [ "SVS" ]
+    },
+    "S_33":
+    {
+      "text": "zawiera przynajmniej trzy gwiazdy",
+      "notes": [ "SVS" ]
+    },
+    "S_35":
+    {
+      "text": "zawiera przynajmniej pięć gwiazd",
+      "notes": [ "SVS" ]
+    },
+    "S_36":
+    {
+      "text": "zawiera przynajmniej sześć gwiazd",
+      "notes": [ "SVS" ]
+    },
+    "S_37":
+    {
+      "text": "zawiera przynajmniej dziesięć gwiazd",
+      "notes": [ "SVS" ]
+    },
+    "S_38":
+    {
+      "text": "zawiera symbol słońca - z pełną tarczą lub połówką (tj. wschód lub zachód)",
+      "notes": [ "SVS" ]
+    },
+    "S_43":
+    {
+      "text": "zawiera jakiekolwiek napisy lub litery w dowolnym alfabecie",
+      "notes": []
+    },
+    "S_45":
+    {
+      "text": "zawiera jakiekolwiek napisy w języku łacińskim, które są różne niż nazwa dowolnego kraju",
+      "notes": []
+    },
+    "S_47":
+    {
+      "text": "zawiera jakiekolwiek napisy w języku hiszpańskim lub portugalskim, które są różne niż nazwa kraju",
+      "notes": []
+    },
+    "S_48":
+    {
+      "text": "zawiera dowolny wizerunek rośliny, jej części lub inny geometryczny motyw roślinny",
+      "notes": [ "FLO" ]
+    },
+    "S_49":
+    {
+      "text": "zawiera jakikolwiek wizerunek drzewa (w tym również palmy)",
+      "notes": []
+    },
+    "S_52":
+    {
+      "text": "zawiera wizerunek dowolnego narzędzia lub instrumentu muzycznego",
+      "notes": [ "TOO" ]
+    },
+    "S_53":
+    {
+      "text": "zawiera wizerunek dowolnego zwierzęcia lub mitologicznego potwora",
+      "notes": [ "LAY", "STR", "UEM" ]
+    },
+    "S_55":
+    {
+      "text": "zawiera wizerunek jakiegokolwiek ptaka",
+      "notes": []
+    },
+    "S_56":
+    {
+      "text": "zawiera w sobie flagę Wielkiej Brytanii",
+      "notes": []
+    },
+    "S_57":
+    {
+      "text": "zawiera wizerunek konstelacji Krzyża Południa",
+      "notes": []
+    },
+    "T_00":
+    {
+      "text": "ma pas koloru niebieskiego umieszczony w środku",
+      "notes": [ "LAY", "STR" ]
+    },
+    "T_01":
+    {
+      "text": "ma poziomy pas koloru czerwonego na górze",
+      "notes": [ "LAY", "STR" ]
+    },
+    "T_02":
+    {
+      "text": "zawiera jasny odcień koloru niebieskiego",
+      "notes": [ "CLR" ]
+    },
+    "T_03":
+    {
+      "text": "ma proporcje 4:5 (w praktyce, oznacza to, że ma kształt znacznie bardziej zbliżony do kwadratu niż większość flag)",
+      "notes": []
+    },
+    "T_04":
+    {
+      "text": "ma w swoim kształcie dowolny krzyż koloru czerwonego",
+      "notes": [ "LAY", "CRS" ]
+    },
+    "T_05":
+    {
+      "text": "zawiera wizerunek więcej niż jednego krzyża",
+      "notes": []
+    },
+    "T_06":
+    {
+      "text": "ma w swoim kształcie dowolny krzyż, który znajduje się na niebieskim tle",
+      "notes": [ "LAY", "STR" ]
+    },
+    "T_07":
+    {
+      "text": "ma pionowy pas koloru zielonego po prawej stronie",
+      "notes": [ "LAY", "STR" ]
+    },
+    "T_08":
+    {
+      "text": "zawiera nieco ciemniejszy odcień koloru niebieskiego (tak, tak, jeśli jesteś taki sprytny i wybrałeś flagę Czadu lub Rumunii, to powinieneś wiedzieć o co chodzi)",
+      "notes": [ "CLR" ]
+    }
+  },
+  "notes":
+  {
+    "CLR": "kolor - dotyczy wszystkich elementów flagi, w tym detali",
+    "TRI": "detailed description of left triangle layout",
+    "LAY": "only pertains to main layout parts, not details",
+    "DIA": "what are diagonal stripes (fans?)",
+    "STR": "what are stripes - i.e. not crosses; may be both horiz and vert, borders count",
+    "SHA": "different shades count as different colours",
+    "UEM": "uneven mixed - if both horiz and vert than oly horiz count",
+    "CRS": "cross - what is and what are",
+    "CRC": "what is circle - geom, big, may intersect with other shapes, not part of sun",
+    "SYM": "symmetry - precise meaning",
+    "SVS": "star vs sun",
+    "FLO": "what are plants and floral motifs",
+    "TOO": "what is tool or mus instr"
+  },
+  "initials":
+  [
+    "Czy wybrana przez Ciebie flaga",
+    "Czy wybrana flaga",
+    "Czy Twoja flaga",
+    "Czy",
+    "Czy flaga",
+    "Czy"
+  ]
+}
