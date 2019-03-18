@@ -63,12 +63,12 @@
     },
     "S_13":
     {
-      "text": "ma pasy poziome lub pionowe, które są dwóch naprzemiennych kolorów",
+      "text": "ma pasy poziome lub pionowe, które są tylko dwóch kolorów",
       "notes": [ "LAY", "STR", "SHA" ]
     },
     "S_14":
     {
-      "text": "ma pasy poziome lub pionowe, które nie mają takich samych wysokości lub szerokości",
+      "text": "ma pasy poziome lub pionowe, z których nie wszystkie mają takie samye wysokości lub szerokości",
       "notes": [ "LAY", "STR", "UEM" ]
     },
     "S_16":
@@ -173,7 +173,7 @@
     },
     "S_47":
     {
-      "text": "zawiera jakiekolwiek napisy w języku hiszpańskim lub portugalskim, które są różne niż nazwa kraju",
+      "text": "zawiera jakiekolwiek napisy w języku hiszpańskim lub portugalskim, które są różne niż nazwa dowolnego kraju",
       "notes": []
     },
     "S_48":
@@ -193,8 +193,8 @@
     },
     "S_53":
     {
-      "text": "zawiera wizerunek dowolnego zwierzęcia lub mitologicznego potwora",
-      "notes": [ "LAY", "STR", "UEM" ]
+      "text": "zawiera wizerunek dowolnego zwierzęcia lub mitycznego stwora",
+      "notes": []
     },
     "S_55":
     {
@@ -259,19 +259,19 @@
   },
   "notes":
   {
-    "CLR": "kolor - dotyczy wszystkich elementów flagi, w tym detali",
-    "TRI": "detailed description of left triangle layout",
-    "LAY": "only pertains to main layout parts, not details",
-    "DIA": "what are diagonal stripes (fans?)",
-    "STR": "what are stripes - i.e. not crosses; may be both horiz and vert, borders count",
-    "SHA": "different shades count as different colours",
-    "UEM": "uneven mixed - if both horiz and vert than oly horiz count",
-    "CRS": "cross - what is and what are",
-    "CRC": "what is circle - geom, big, may intersect with other shapes, not part of sun",
-    "SYM": "symmetry - precise meaning",
-    "SVS": "star vs sun",
-    "FLO": "what are plants and floral motifs",
-    "TOO": "what is tool or mus instr"
+    "CLR": "KOLORY: Wymienione kolory mogą występować w dowolnej części flagi, a więc także detalach i w dowolnie małej ilości. Nie liczą się jedynie kontury.",
+    "TRI": "TRÓJKĄT: Przez 'trójkąt oparty na lewej krawędzi' rozumiemy przynajmniej jeden równoramienny trójkątny kształt tła, którego dwa wierzchołki dokładnie pokrywają się z dwoma lewymi wierzołkami prostokąta flagi, a trzeci znajduje się na środkowej osi poziomej prostokąta flagi. Wewnątrz trójkąta mogą znajdować się inne kształty lub detale.",
+    "LAY": "ELEMENTY TŁA: Elementy i kształty, o których mowa w pytaniu, dotyczą jedynie głównych elementów geometrycznych flagi lub jej tła. Nie liczą się więc ich realizacje w ramach jakichkolwiek detalów flagi, obramowanych lub w inny sposób wyróżnionych części.",
+    "DIA": "PASY SKOŚNE: Jako 'pasy skośne' rozumiemy pasy stałej szerokości, które występują w tle flagi, a nie są ani poziome ani pionowe, a także tła podzielone na dwa lub więcej trójkąty przez skośne line wychodzące z jednego z wierzchołków prostokąta flagi.",
+    "STR": "PASY: Pasy muszą rozciągać się na całą szerokość lub wysokość tła (zatem flagi z krzyżami się nie liczą), choć mogą być częściowo przesłonięte. Wyjątkiem są flagi, w których tle występują zarówno pionowe, jak i poziome pasy - wówczas zaliczają się one do obu kategogii. Wyjątkowo ciękie pasy, które można traktować jak obramowania, również liczą się jako pasy.",
+    "SHA": "KOLORY: W tym kontekście, różne odcienie tego samego koloru liczą się jako różne kolorey.",
+    "UEM": "UWAGA: W przypadku, gdy flaga zawiera zarówno pionowe, jak i poziome pasy, pytanie dotyczy tylko poziomych pasów.",
+    "CRS": "KRZYŻE: Krzyże muszą stanowić główny element lub tło flagi. Mogą być zarówno skośne (tj. św. Andrzeja i podobne) oraz poziome-pionowe. Nie liczą się krzyże występujące w detalach flagi.",
+    "CRC": "KOŁA: Liczą się wszelkie koła będące istotnym elementem geometrycznym flagi. Jeśli kołowy kształt jest dostatecznie wyróżniony, to może się on składać z kilku geometrycznych elementów różnych kolorów (np. połówek, itp.). W kole mogą znajdować się inne symbole lub detale. Nie liczą się kołą (nawet duże i centralne), które wchodzą w skłąd symbolu słońca.",
+    "SYM": "SYMETRIA: Symetrie rozumiemy tutaj dosłownie i precyzyjnie, tzn. jedna połowa flagi musi być dokładnym (wliczając detale) odbiciem drugiej. Oś symetrii musi przechodzić przez środek flagi (w pionie lub poziomie).",
+    "SVS": "GWIAZDY I SŁOŃCA: Symbol gwiazdy musi być jednolity (wypełniony w środku lub nie, może zawierać obranmowanie) i może zawierać dowolną liczbę ramion. Symbol gwiazdy może być częściowo połączony z innym. Do gwiazd (w sensie symboli) nie zaliczamy słońca. Symbol słońca posiada wyróżnioną tarczę (w kształcie kołą) i oddzielone od niego promienie.",
+    "FLO": "MOTYWY ROŚLINNE: Liczą się tu dowolne wizerunki roślin (także kępy traw, jeśli są wyraźnie zaznaczone), a także geometryczne motywy wzorowane rożlinnie (np. kwiaty, źdźbła zbóż, gałązki, itp.).",
+    "TOO": "NARZĘDZIA: Do narzęddzi zaliczamy proste narzędza m.in. młoty, siekiery, maczety, wiosła, motyki, itp. Nie liczą się bronie lub zaawansowane instrumenty (np. nawigacyjne)."
   },
   "initials":
   [

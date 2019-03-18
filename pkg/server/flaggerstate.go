@@ -76,7 +76,7 @@ func GetWalkState(choice string, nid uint32) *FlaggerState {
 
 		s.Question = fmt.Sprintf("PYTANIE #%d: %s %s?", level, init, qnode.Text)
 		for i, note := range qnode.Notes {
-			s.Notes = append(s.Notes, fmt.Sprintf("[%d] %s", i, QData.Notes[note]))
+			s.Notes = append(s.Notes, fmt.Sprintf("[%d] %s", i + 1, QData.Notes[note]))
 		}
 		s.Title = fmt.Sprintf("Poszukiwanie wybranej flagi - pytanie #%d", level)
 		s.YesNode = nid << 1
